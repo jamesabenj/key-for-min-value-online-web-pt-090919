@@ -7,7 +7,8 @@ def key_for_min_value(name_hash)
 new_array = name_hash.collect do |key, value|
   value
 end
-new_array.sort 
+new_array.sort
+binding.pry
 name_hash.each do |key, value|
     if value == new_array[0]
       #binding.pry
