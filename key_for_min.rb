@@ -10,7 +10,6 @@ end
 new_array = new_array.sort
 name_hash.each do |key, value|
     if value == new_array[0]
-      #binding.pry
        return key  
     end
   end 
